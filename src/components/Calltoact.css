@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+.calltoact{
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calltoact__questionCall{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+}
+
+.calltoact__question{
+    font-size: 60px;
+    width: 50%;
+    font-weight: 400;
+}
+
+.calltoact__answer{
+    font-size: 18px;
+    width: 40%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+
+.calltoact__button{
+    margin-top: 20px;
+    max-width: 250px;
+    padding: 1rem 1rem 3rem 1rem;
+    position: relative;
+    background: rgb(245,1,1);
+    background: linear-gradient(90deg, rgba(245,1,1,1) 0%, rgba(224,61,6,1) 13%, rgba(187,155,11,1) 30%, rgba(43,207,103,1) 47%, rgba(32,207,208,1) 60%, rgba(22,137,222,1) 72%, rgba(13,171,236,1) 84%, rgba(0,212,255,1) 100%);
+    cursor: pointer;
+    padding: 2px;
+}
+
+.calltoact__inner{
+    background: #000;
+    color: white;
+    padding: 10px 13px;
+    display: inline-flex;
+    font-size: 17px;
+}
+
+.calltoact__arrow{
+    width: 14px;
+    padding-top: 1px;
+}
+
+.calltoact__button:hover{
+    background: linear-gradient(90deg, rgb(250, 33, 33) 0%, rgb(248, 98, 47) 13%, rgb(235, 196, 25) 30%, rgb(54, 243, 123) 47%, rgb(62, 247, 247) 60%, rgba(22,137,222,1) 72%, rgb(33, 136, 177) 84%, rgba(0,212,255,1) 100%);
+    transition: all 4s;
+}
+
+.calltoact__button:hover .calltoact__arrow{
+    animation: goback 1s infinite;
+}
+
+@keyframes goback{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(7px);
+    }
+}

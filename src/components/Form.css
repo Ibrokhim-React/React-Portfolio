@@ -1,0 +1,64 @@
+.form{
+    width: 80%;
+    height: auto;
+    margin: 40px auto;
+}
+
+#form__input{
+    display: flex;
+    flex-direction: column;
+}
+
+.form > h2{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#form__firstname, #form__secondname, #form__email, #form__message{
+    width: 50%;
+    margin: 20px auto;
+    padding: 12px 0px;
+    text-indent: 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+input::placeholder{
+    color: rgb(68, 68, 68);
+    font-size: 15px;
+}
+
+input:focus{
+    box-shadow: 0px 0px 7px rgb(255, 226, 62);
+}
+
+#form__message{
+    padding-bottom: 100px;
+}
+
+.calltoact__buttonForm{
+    margin: 20px auto;
+    max-width: 105px;
+    padding: 1rem;
+    position: relative;
+    background: rgb(245,1,1);
+    background: linear-gradient(90deg, rgba(245,1,1,1) 0%, rgba(224,61,6,1) 13%, rgba(187,155,11,1) 30%, rgba(43,207,103,1) 47%, rgba(32,207,208,1) 60%, rgba(22,137,222,1) 72%, rgba(13,171,236,1) 84%, rgba(0,212,255,1) 100%);
+    cursor: pointer;
+    padding: 2px;
+}
+
+.calltoact__innerForm{
+    background: #000;
+    color: white;
+    padding: 10px 13px;
+    display: inline-flex;
+    font-size: 17px;
+}
+
+.calltoact__buttonForm:hover{
+    background: linear-gradient(90deg, rgb(250, 33, 33) 0%, rgb(248, 98, 47) 13%, rgb(235, 196, 25) 30%, rgb(54, 243, 123) 47%, rgb(62, 247, 247) 60%, rgba(22,137,222,1) 72%, rgb(33, 136, 177) 84%, rgba(0,212,255,1) 100%);
+    transition: all 4s;
+}

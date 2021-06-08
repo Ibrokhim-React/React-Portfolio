@@ -1,0 +1,62 @@
+.row1, .row2, .row3{
+    display: inline-flex;
+    width: 70%;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+    user-select: none;
+}
+
+.row1, .row2, .row3{
+    user-select: none;
+    cursor: pointer;
+}
+
+.brand__images{
+    width: 200px;
+}
+
+.row1 > .brand__images:first-child{
+    width: 100px;
+}
+
+.row1 > .brand__images:nth-child(2){
+    width: 150px;
+    margin-left: 60px;
+}
+
+.row1 > .brand__images:nth-child(3){
+    width: 150px;
+}
+
+.row2 > .brand__images:first-child{
+    width: 200px;
+    margin-left: -40px;
+}
+
+.row2 > .brand__images:nth-child(2){
+    width: 150px;
+    margin-left: 0px;
+}
+
+.row2 > .brand__images:nth-child(3){
+    width: 150px;
+}
+
+.row3 > .brand__images:first-child{
+    width: 350px;
+    margin-left: -90px;
+}
+
+.row3 > .brand__images:nth-child(2){
+    width:200px;
+    margin-left: -100px;
+}
+
+.row3 > .brand__images:nth-child(3){
+    width: 150px;
+}
+
+.brand__images:hover{
+    transform: scale(1.06);
+}

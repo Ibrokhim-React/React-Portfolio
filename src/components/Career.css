@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&display=swap");
+.career {
+  width: 100%;
+  height: 600px;
+  background-image: url("../assets/background__career.png");
+  background-size: 120%;
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  color: #f5f5f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: "Noto Sans TC", sans-serif;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.counter {
+  display: flex;
+  user-select: none;
+  position: absolute;
+  z-index: 2;
+}
+
+.counter > .counter__big {
+  font-size: 500px;
+  font-weight: 700;
+  margin: 0;
+  padding-left: 100px;
+  color: rgb(255, 65, 65);
+}
+
+.counter > .counter__small {
+  font-size: 150px;
+  padding-top: 120px;
+  color: rgb(255, 65, 65);
+}
+
+.career__info {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+  z-index: 2;
+  user-select: none;
+}
+
+.career__skills > li {
+  margin: 40px 0px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.career__skills > li:hover {
+  color: rgb(70, 70, 70);
+  transition: all 0.5s;
+}
+
+.career__skills > li > span {
+  font-size: 20px;
+  font-weight: 400;
+}

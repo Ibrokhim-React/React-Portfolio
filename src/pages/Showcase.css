@@ -1,0 +1,12 @@
+.showcase{
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-size: #f0f0f0;
+}
+
+.phone__img{
+  width: 100%;
+  height: 99vh;
+  margin-top: -55px;
+}
